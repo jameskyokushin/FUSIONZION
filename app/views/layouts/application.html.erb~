@@ -9,8 +9,7 @@
 <body>
 	<div class='container'>
 		<header>
-    	 <script type="text/javascript" src="http://www.kyokushin.com.ph/templates/rt_infuse_j15/jquery-1.4.2.js"></script>
-<script type="text/javascript" src="http://www.kyokushin.com.ph/templates/rt_infuse_j15/coin-slider.min.js"></script>
+    	
     	<nav class="round">
       	<ul>
 					<li><%= link_to "Home", root_path %></li>
