@@ -6,7 +6,7 @@ body {
 	}
 	
 .container {
-	width:900px;
+	width:1200px;
 	margin:0px auto;
 	text-align:left;
 	padding:15px;
@@ -35,7 +35,7 @@ section {
   margin-top: 1em;
   font-size: 80%;
   padding: 20px;
-  background: black;
+  background: #fff;
 	height: 850px;
 }
 
