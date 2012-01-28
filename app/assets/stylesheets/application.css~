@@ -15,7 +15,17 @@ body {
 	}
 
 header {
-  padding-top: 20px;
+  float: left;
+  margin-top: 10px;
+  width: 710px;
+  margin-left: auto;
+  margin-right: auto;
+	font-size: 100%;
+	font-style:italic;
+}
+
+header nav {
+  float: none;
 }
 
 header img {
@@ -25,7 +35,7 @@ header img {
 
 section {
   margin-top: 1em;
-  font-size: 100%;
+  font-size: 80%;
   padding: 20px;
   background: #fff;
 }
@@ -50,12 +60,9 @@ a:visited {
   color: #069;
 }
 
-nav {
-  float: left;
-}
 
 nav {
-  background-color: white;
+  background-color: #eee;
   padding: 0 0.7em;
   white-space: nowrap;
 }
@@ -84,3 +91,16 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+footer {
+  float: left;
+  margin-top: 10px;
+  width: 710px;
+  margin-left: auto;
+  margin-right: auto;
+	font-size: 100%;
+	font-style:italic;
+}
+
+footer nav {
+  float: none;
+}

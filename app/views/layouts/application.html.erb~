@@ -5,19 +5,17 @@
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
-	<script type='text/javascript' src='http://www.proudcloud.net/wp-content/plugins/fancybox-for-wordpress/js/jquery.fancybox-1.2.6.min.js?ver=1.3.2'></script>
 </head>
-<body>
+<body>	
 	<div class='container'>
 		<header>
-    	
     	<nav class="round">
       	<ul>
 					<li><%= link_to "Home", root_path %></li>
       	  <li><%= link_to "About FusionZion", about_path %></li>
   				<li><%= link_to "Our Approach", approach_path %></li>
 					<li><%= link_to "Our Solutions", solution_path %></li>
-					<li><%= link_to "The Tools", tool_path %></li>
+					<li><%= link_to "Tools", tool_path %></li>
 					<li><%= link_to "Contac Us", contact_path %></li>
       	</ul>
     	</nav>
@@ -25,6 +23,18 @@
 		<section class="round">
     	<%= yield %>
   	</section>
+		<footer>
+  		<nav class="round">
+    		<ul>
+      		<li><%= link_to "home", root_path %></li>
+      	  <li><%= link_to "about FusionZion", about_path %></li>
+  				<li><%= link_to "our approach", approach_path %></li>
+					<li><%= link_to "our solutions", solution_path %></li>
+					<li><%= link_to "tools", tool_path %></li>
+					<li><%= link_to "contac us", contact_path %></li>
+    		</ul>
+  		</nav>
+		</footer>
 	</div>
 </body>
 </html>
