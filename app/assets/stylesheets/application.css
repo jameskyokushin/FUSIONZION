@@ -24,16 +24,21 @@ header img {
   background: #fff;
 }
 
+sidebar {
+	float:right;
+	width:230px;
+	padding:10px;
+	background:#09c;
+}
+
 section {
   margin-top: 1em;
   font-size: 80%;
   padding: 20px;
   background: #fff;
+	height: 850px;
 }
 
-section h1 {
-  font-size: 200%;
-}
 
 /* Links */
 
