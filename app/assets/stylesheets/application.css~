@@ -9,6 +9,24 @@ section {
   background: #fff;
 }
 
-section h1 {
-  font-size: 200%;
+nav {
+  float: left;
 }
+
+nav {
+  background-color: white;
+  padding: 0 0.7em;
+  white-space: nowrap;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0;
+}
+
