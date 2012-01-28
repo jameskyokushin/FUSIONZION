@@ -1,9 +1,5 @@
 <sidebar>
-		<h1>The Tools</h1>
 <h2>The Tools We Use</h2>
-	<p>
-		Our proficiencies span a wide number of technologies and platforms. 
-	</p>
 <h4>Languages and Frameworks</h4>
 	<ul>
 		<li>Ruby on Rails</li>
@@ -44,7 +40,7 @@
 		<li>Yammer</li>
 		<li>Insync</li>
 	</ul>
-</div>
+</sidebar>
 <h1>Vision Statement:</h1>
 	<ul>
 		<li>“To bring fulfillment and innovation to every partners in the world.”</li>

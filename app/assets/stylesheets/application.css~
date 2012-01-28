@@ -28,7 +28,8 @@ sidebar {
 	float:right;
 	width:230px;
 	padding:10px;
-	background:#09c;
+	background: #fff;
+	height: 850px;
 }
 
 section {
