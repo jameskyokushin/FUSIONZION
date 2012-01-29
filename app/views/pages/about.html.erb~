@@ -1,20 +1,12 @@
-<sidebar>
-<h1>Meet the Crew</h1>
-
-<h2>JMDC</h2>
-<h2>Rhandy Bueno</h2>
-<h2>Rose Anne Cajobe</h2>
-<h2></h2>
-	
-</sidebar>
-<h2>Meet FusionZion’s</h2>
+<%= render 'layouts/sidebarcrew' %>
+<h2>Meet FusionZion’s</h2><br>
 	<p>
 		We’re a fresh, enterprising web engineering firm with a relentless passion for innovation and 		excellence. We strive to share this passion with our partners to create a mutual desire to 			build and develop excellent services.
-	</p>
+	</p><br>
 	<p>
 		We’re building a better web with innovations.
 		This is our character and commitment. We envision a web design that is powered richly and 			reliable applications running on both fixed and mobile devices.
-	</p>
+	</p><br>
 
 <h2>Our Partners</h2>
 	<p>

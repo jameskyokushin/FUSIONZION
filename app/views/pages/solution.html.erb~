@@ -1,73 +1,29 @@
-<sidebar>
-<h2>The Tools We Use</h2>
-<h4>Languages and Frameworks</h4>
-	<ul>
-		<li>Ruby on Rails</li>
-		<li>Javascript & jQuery</li>
-		<li>HAML/SASS</li>
-		<li>HTML5 & CSS3</li>
-		<li>Open APIs and Cloud Resources</li>
-	</ul>
-<h4>Databases and Data Stores</h4>
-	<ul>
-		<li>MySQL</li>
-		<li>MongoDB + Mongoid</li>
-		<li>Postgres</li>
-	</ul>
-<h4>Mobile SDKs</h4>
-	<ul>
- 		<li>Android</li>
-		<li>iOS</li>
-		<li>Blackberry</li>
-	</ul>
-<h4>BDD and Unit Testing</h4>
-	<ul>
-		<li>RSpec</li>
-		<li>Shoulda</li>
-		<li>Cucumber</li>
-	</ul>
-<h4>Production Hosts</h4>
-	<ul>
-		<li>Engineyard</li>
-		<li>Heroku</li>
-		<li>Webbynode</li>
-	</ul>
-<h4>SCM and Collaboration</h4>
-	<ul>
-		<li>GitHub</li>
-		<li>PivotalTracker</li>
-		<li>Teambox</li>
-		<li>Yammer</li>
-		<li>Insync</li>
-	</ul>
-</sidebar>
-
-<h1>Our Solutions</h1>
+<%= render 'layouts/sidebartool' %>
+<h1>Our Solutions</h1><br>
 
 	<p>
 		The FusionZion’s team is committed to deliver applications that meet our clients’ 							requirements for  web architecture and development, user experience design, mobile 			applications, and web strategy.
-	</p>
+	</p><br>
 
-<center>We build great innovations on the web.</center>
+<center>We build great innovations on the web.</center><br>
 
-<h2>Web Application Design & Development</h2>
+<h2>Web Application Design & Development</h2><br>
 	<p>
 		Applications on the web and cloud based computing is fast becoming the norm. We’ll build a 			solid and beautiful web app around your great idea, brand, or message.
-	</p>
+	</p><br>
 
-<h2>Mobile Applications Development</h2>
+<h2>Mobile Applications Development</h2><br>
 	<p>
 		Whether its web based, or a native app, we are fully capable of providing you with a mobile 		centric product for Android, iPhone, iPod, and Blackberry devices.
-	</p>
+	</p><br>
 
-<h2>Web Strategy Consulting</h2>
+<h2>Web Strategy Consulting</h2><br>
 	<p>
 		If your company or brand is still trying to make sense of their place on the web, we’ll be 			glad to come in and help you. We can identify the best way to position your product, deliver 			your message, and stay in touch with your customers. 
-	</p>
+	</p><br>
 
 <h2>Enterprise 2.0</h2>
 	<p>
 		Ready to take your company’s internal requirements to the next level? We’ll help you 						implement best practices and make sure that your processes take full advantage of Web 		2.0 technology and Social Computing.
 	</p>
-
 

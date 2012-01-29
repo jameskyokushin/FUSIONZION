@@ -1,39 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title><%= @title %> | A Ruby on Rails Shop from the heart of Manila, Philippines / Agile and Innovative Web Engineering</title>
+  <title><%= @title %> | Agile and Innovative Web Engineering </title>
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>	
 	<div class='container'>
-		<header>
-    	<nav class="round">
-      	<ul>
-					<li><%= link_to "Home", root_path %></li>
-      	  <li><%= link_to "About FusionZion", about_path %></li>
-					<li><%= link_to "Solution", solution_path %></li>
-					<li><%= link_to "Our Approach", approach_path %></li>
-					<li><%= link_to "Contact Us", contact_path %></li>
-      	</ul>
-    	</nav>
-  	</header>
+		<%= render 'layouts/header' %>
 		<section class="round">
     	<%= yield %>
   	</section>
-		<footer>
-  		<nav class="round">
-    		<ul>
-					<li><%= link_to "home", root_path %></li>
-      	  <li><%= link_to "about fz", about_path %></li>
-					<li><%= link_to "solution", solution_path %></li>
-					<li><%= link_to "our approach", approach_path %></li>
-					<li><%= link_to "contact us", contact_path %></li>
-      	</ul>
-  		</nav>
-    	<p align="right"><font size="2" face="verdana" color="black">FUSIONZION INC. All Rights Reserved</font></p>
-		</footer>
+		<%= render 'layouts/header' %>
 	</div>
 </body>
 </html>
