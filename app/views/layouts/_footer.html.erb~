@@ -1,16 +1,16 @@
 <footer>
-<nav class="round">
-<ul>
-<li><%= link_to "home", root_path %></li>
-<li><%= link_to "about fz", about_path %></li>
-<li><%= link_to "solution", solution_path %></li>
-<li><%= link_to "our approach", approach_path %></li>
-<li><%= link_to "contact us", contact_path %></li>
-</ul>
-</nav>
-<p align="right">
-	<font size="2" face="verdana" color="black">
-		FUSIONZION INC. All Rights Reserved
-	</font>
-</p>
+	<nav class="round">
+		<ul>
+			<li>|<%= link_to "home", root_path %>|</li>
+			<li><%= link_to "about fz", about_path %>|</li>
+			<li><%= link_to "solution", solution_path %>|</li>
+			<li><%= link_to "our approach", approach_path %>|</li>
+			<li><%= link_to "contact us", contact_path %></li>
+		</ul>
+	</nav>
+		<p align="right">
+			<font size="2" face="verdana" color="black">
+				FUSIONZION INC. All Rights Reserved
+			</font>
+		</p>
 </footer>
